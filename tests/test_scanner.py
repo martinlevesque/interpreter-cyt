@@ -1,9 +1,10 @@
-from interpreter.token import TokenType
+from tokenizer.token import TokenType
 import scanner
 
 
 def test_scanner_simple_operators():
     result = scanner.scan_tokens("+-")
+
     assert len(result) == 2
     assert TokenType(result[0]["type"]) == TokenType.TOKEN_TYPE_PLUS
     assert result[0]["lexeme"] == "+"

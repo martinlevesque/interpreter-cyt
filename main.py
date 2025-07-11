@@ -2,11 +2,11 @@ import sys
 
 import scanner
 
-from interpreter import token
+from tokenizer import token
 from syntax_tree.expr import Expr
 from parser.parser import Parser
 
-# https://craftinginterpreters.com/parsing-expressions.html
+# https://craftinginterpreters.com/evaluating-expressions.html
 
 
 class Interpreter:

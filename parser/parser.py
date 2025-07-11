@@ -1,5 +1,5 @@
 from dataclasses import dataclass
-from interpreter.token import Token, TokenType
+from tokenizer.token import Token, TokenType
 from syntax_tree.unary_expr import UnaryExpr
 from syntax_tree.binary_expr import BinaryExpr
 from syntax_tree.grouping_expr import GroupingExpr

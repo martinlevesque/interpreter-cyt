@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from interpreter.token import Token, TokenType
+from tokenizer.token import Token, TokenType
 from syntax_tree.expr import Expr
 
 

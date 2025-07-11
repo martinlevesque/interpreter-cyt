@@ -1,6 +1,6 @@
 from setuptools import setup, Extension
 
-module = Extension("scanner", sources=["interpreter/scanner.c"])
+module = Extension("scanner", sources=["tokenizer/scanner.c"])
 
 setup(
     name="loxinterpreter",

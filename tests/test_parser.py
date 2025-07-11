@@ -1,5 +1,5 @@
 from parser.parser import Parser, ParseError
-from interpreter.token import Token, TokenType
+from tokenizer.token import Token, TokenType
 from syntax_tree.ast_printer import AstPrinter
 from syntax_tree.unary_expr import UnaryExpr
 from syntax_tree.literal_expr import LiteralExpr
